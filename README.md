@@ -45,7 +45,7 @@ Pasos:
 
 Cuando termine, Cloudflare te dara una URL publica `.pages.dev`.
 
-Este proyecto incluye fallback SPA en [public/_redirects](public/_redirects) para recargar rutas sin error 404.
+No necesitas `public/_redirects` para este deploy con Cloudflare/Wrangler porque ya usa manejo SPA automaticamente.
 
 ## Uso
 
